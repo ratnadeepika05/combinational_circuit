@@ -1,4 +1,4 @@
-# combinational_circuit
+# Combinational_circuit
 ⭐Verilog HDL implementations of fundamental combinational circuits including Half Adder, Full Adder, Multiplexer (MUX), Demultiplexer (DEMUX), Encoder, Priority Encoder, and Decoder with testbenches and waveform verification.
 
 # Half Adder
@@ -21,9 +21,6 @@ Half Adder adds two 1-bit binary inputs and produces Sum and Carry outputs.
 | 1 | 0 |  1  |   0   |
 | 1 | 1 |  0  |   1   |
 
-## Simulation Waveform
-
-![Half Adder](half_adder_waveform.png)
 
 # Full Adder
 
