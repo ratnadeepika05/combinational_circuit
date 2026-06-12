@@ -12,6 +12,12 @@ Half Adder adds two 1-bit binary inputs and produces Sum and Carry outputs.
 ## Testbench
 [View Testbench](half_adder_tb.v)
 
+## Design Equations
+
+Sum = A ⊕ B
+
+Carry = A·B
+
 ## Truth Table
 
 | A | B | Sum | Carry |
@@ -32,6 +38,12 @@ Full Adder adds three 1-bit inputs (A, B, Cin) and produces Sum and Carry output
 
 ## Testbench
 [View Testbench](full_adder_tb.v)
+
+## Design Equations
+
+Sum = A ⊕ B ⊕ Cin
+
+Cout = AB + ACin + BCin
 
 ## Truth Table
 | A | B | Cin | Sum | Cout |
@@ -58,6 +70,13 @@ A Half Subtractor is a combinational circuit that subtracts one 1-bit binary num
 
 [View Testbench](half_sub_tb.v)
 
+## Design Equations
+
+Difference = A ⊕ B
+
+Borrow = A'B
+
+
 ## Truth Table
 
 | A | B | D | Bout |
@@ -79,6 +98,12 @@ A Full Subtractor is a combinational circuit that subtracts two 1-bit binary num
 ## Testbench
 
 [View Testbench](full_sub_tb.v)
+
+## Design Equations
+
+Difference = A ⊕ B ⊕ Bin
+
+Borrow = A'B + A'Bin + BBin
 
 ## Truth Table
 
@@ -106,6 +131,12 @@ A 4-Bit Adder is a combinational circuit that adds two 4-bit binary numbers and 
 ## Testbench
 
 [View Testbench](four_bit_adder_tb.v)
+
+## Design Equation
+
+Sum = A + B
+
+Carry = Carry Out from MSB
 
 ## Example
 
