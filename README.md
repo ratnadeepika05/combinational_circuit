@@ -93,4 +93,26 @@ A Full Subtractor is a combinational circuit that subtracts two 1-bit binary num
 | 1 | 1 | 0 | 0 | 0 |
 | 1 | 1 | 1 | 1 | 1 |
 
+# 4-Bit Adder
+
+## Description
+
+A 4-Bit Adder is a combinational circuit that adds two 4-bit binary numbers and produces a 4-bit Sum along with a Carry output. It performs binary addition and generates a carry when the result exceeds 4 bits.
+
+## RTL Code
+
+[View RTL Code](four_bit_adder.v)
+
+## Testbench
+
+[View Testbench](four_bit_adder_tb.v)
+
+## Example
+
+| A    | B    | Sum  | Carry |
+|------|------|------|--------|
+| 0010 | 0001 | 0011 | 0 |
+| 0110 | 0011 | 1001 | 0 |
+| 1111 | 0001 | 0000 | 1 |
+| 1111 | 1111 | 1110 | 1 |
 
