@@ -138,6 +138,26 @@ Sum = A + B
 
 Carry = Carry Out from MSB
 
+# 4-Bit Ripple Carry Adder (RCA)
+
+## Description
+
+A 4-Bit Ripple Carry Adder (RCA) is a combinational circuit used to add two 4-bit binary numbers. It is built by connecting four Full Adders in series. The carry output of each Full Adder is passed to the next stage, causing the carry to ripple from the Least Significant Bit (LSB) to the Most Significant Bit (MSB).
+
+## Design Equation
+
+Sum = A + B + Cin
+
+Cout = Final Carry Output
+
+## RTL Code
+
+[View RTL Code](four_bit_rca.v)
+
+## Testbench
+
+[View Testbench](four_bit_rca_tb.v)
+
 ## Example
 
 | A    | B    | Sum  | Carry |
